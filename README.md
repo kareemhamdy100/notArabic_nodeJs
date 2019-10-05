@@ -1,15 +1,15 @@
-### notArabic_nodeJs
+# notArabic_nodeJs
 My first project with node-Js Express and mongoDB
 
-### about notArabic
+# about notArabic
   It's a dictionary for arabic public words 
 
-### how supposed to work
+# how supposed to work
    say if you don't know the meaning of certain word then you go to our website (coming soon) 
 and then search about this word if you find the result then you will find more than 
 one description with different rank 
 if you don't find the word then you will add it and then ask others users to add description for it.
-### how to run the App 
+# how to run the App 
 first you need to stup node-js 
 secound you need to download mongodb and install it 
 
@@ -50,7 +50,7 @@ you should see something like that
        }
  
  
- ### note 
+ # note 
       any thing other than get request need to be logged in "using Authorization  header"
       exaple: 
       Authorization : bearer <Token>
@@ -104,10 +104,10 @@ you should see something like that
     "__v": 5
     }
    
-### what I'm using 
+# what I'm using 
      node-js  Express mongodb  mongoose JWT Passport  MVC 
      
-### TODO LIST
+# TODO LIST
     better error handling
     add Testing 
     using docker
