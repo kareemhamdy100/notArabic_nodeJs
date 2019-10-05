@@ -10,11 +10,13 @@ const defualtOrErrorRequest =  (req, res, next) => {
             avaliapleUrls: [
                 "api/login           POST",
                 "api/signup          POST",
-                "api/words           GET",
+                "api/words           GET POST",
                 "api/words?search    GET",
                 "api/words/:id       GET",
                 "api/words/:wordId/details              GET POST",
                 "api/words/:wordId/details/:detailId    GET DELETE",
+                "api/words/:wordId/details/:detailId/upvote    GET",
+                "api/words/:wordId/details/:detailId/downvote    GET"
                
             ]
         });
