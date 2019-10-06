@@ -13,7 +13,9 @@ mongoose.connect(config.dbURL,
     {
         useNewUrlParser: true,
         useCreateIndex: true
-    });
+    },(err=>{
+        console.log(err);
+    }));
 
 
 addGlobalMiddleWare(app);
