@@ -6,6 +6,9 @@
   "scripts": {
     "test": "test"
   },
+  "engines": {
+    "node": "10.16.0"
+  },
   "author": "kareem-hamdy",
   "license": "ISC",
   "dependencies": {
